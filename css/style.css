@@ -26,26 +26,11 @@
 
 /* Add animation to the heading*/
 @keyframes headingline {
-  0%   {color:red;}  /*left:0px; top:0px;} */
-  25%  {color:purple;} /* left:10px; top:0px;} */
-  50%  {color:orange;}  /*right:20px; top:0px;} */
-  75%  {color:green;}    /*left:0px; top:5px;}*/
-  100% {color:blue;} /* left:0px; bottom:5px;} */
-}
-  /* min-height: 360px;
-  transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -webkit-transition: all .5s ease-in-out;*/
- /* height:100%;*/
-
-
-
-
-.funillustration {
-  background: url("../images/fun.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  0%   {color:red;}  
+  25%  {color:purple;} 
+  50%  {color:orange;}  
+  75%  {color:green;}   
+  100% {color:blue;}
 }
 
 .whatwedo {
