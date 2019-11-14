@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+.navstyle{
+  background-color: #FFE417;
+}
+
+.banner-pic {
+  width: 100%;
+  background: url("../images/banner.jpg"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.headline {
+  padding: 50px 0px;
+  text-align: center;
+  position: relative;
+  color: red;
+  animation-name: headingline;
+  animation-duration: 5s;
+  
+}
+
+/* Add animation to the heading*/
+@keyframes headingline {
+  0%   {color:red;}  /*left:0px; top:0px;} */
+  25%  {color:purple;} /* left:10px; top:0px;} */
+  50%  {color:orange;}  /*right:20px; top:0px;} */
+  75%  {color:green;}    /*left:0px; top:5px;}*/
+  100% {color:blue;} /* left:0px; bottom:5px;} */
+}
+  /* min-height: 360px;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;*/
+ /* height:100%;*/
+
+
+
+
+.funillustration {
+  background: url("../images/fun.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.whatwedo {
+    position: relative;
+    padding: 30px 50px 50px 50px;
+    margin:0;
+}
+
+
