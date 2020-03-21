@@ -1,42 +1,846 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');*/
+@import url('https://fonts.googleapis.com/css?family=Salsa&effect=shadow-multiple&display:100,200,300,400,500,600,700');
 
+
+hr {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   border: 0;
+   border-top: 1px solid #eee;
+ }
+ 
 
 .navstyle{
-  background-color: #FFE417;
+  background-image:linear-gradient(#87EB31, white);
 }
 
-.banner-pic {
-  width: 100%;
-  background: url("../images/banner.jpg"); 
-  background-position: center;
-  background-repeat: no-repeat;
+
+/* might need to add mouse-click evet  to keep it purple*/
+.navbar-toggler{
+  border: 1px solid #AB6BFF !important;
+}
+
+
+/* Style the text of the menu */
+.navbar .nav > li > a{
+font-family: 'Salsa', cursive;
+font-size: 1.5em;
+font-weight: normal;
+padding: 5px 40px;
+margin-right: 20px;
+}
+
+/* Menu Hower Style. Overridding Bootstrap's*/
+.navbar-nav .nav-item.active .nav-link {
+ background-color:#87EB31; /*green*/
+ border-radius: 16px;
+ color: white;
+} 
+
+/* Menu Hower Style. Overridding Bootstrap's*/
+.navbar-nav .nav-item.active2 .nav-link {
+ background-color:#AB6BFF; /*purple*/
+ border-radius: 16px;
+ color: white;
+}
+
+/* Menu Hower Style. Overridding Bootstrap's*/
+.navbar-nav .nav-item.active3 .nav-link {
+ background-color:#FF3932 ; /*red*/
+ border-radius: 16px;
+ color: white;
+}
+
+/* Menu Hower Style. Overridding Bootstrap's*/
+.navbar-nav .nav-item.active4 .nav-link {
+ background-color: #FF9F30; /*orange*/
+ border-radius: 16px;
+ color: white;
+}
+
+/* Menu Hower Style. Overridding Bootstrap's*/
+.navbar-nav .nav-item.active5 .nav-link {
+ background-color: #FF3932; /*red*/
+ border-radius: 16px;
+ color: white;
+}
+
+/* Menu Hower Style. Overridding Bootstrap's*/
+.navbar-nav .nav-item.active6 .nav-link {
+ background-color: #00BCE4;  /*teal*/
+ border-radius: 16px;
+ color: white;
+}
+
+
+/* Smooth delay on menu hovering */
+.nav-link {
+     transition: all 250ms ease-in-out;
+}
+
+.navbar-nav .nav-item:hover .nav-link  {
+ background-color:#87EB31; /*green*/
+ border-radius: 16px;
+ color: white;
+}
+
+.navbar-nav .nav-item:nth-child(2):hover .nav-link  {
+ background-color: #AB6BFF; /*purple*/
+ border-radius: 16px;
+ color: white;
+}
+
+.navbar-nav .nav-item:nth-child(3):hover .nav-link  {
+ background-color: #FF3932; /*bright red*/
+ border-radius: 16px;
+ color: white;
+}
+
+.navbar-nav .nav-item:nth-child(4):hover .nav-link  {
+ background-color: #FF9F30; /*orange*/
+ border-radius: 16px;
+ color: white;
+}
+
+.navbar-nav .nav-item:nth-child(5):hover .nav-link  {
+ background-color: #FF3932;
+ border-radius: 16px;
+ color: white;
+}
+
+.navbar-nav .nav-item:nth-child(6):hover .nav-link  {
+ background-color: #00BCE4;  /*teal*/
+ border-radius: 16px;
+ color: white;
+}
+
+
+/**** Banner images****/
+
+.banner-home {
+  height: 40vh;
+  background: url("../images/banner-home.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.banner-center {
+  height: 40vh;
+  background: url("../images/happy-kids.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+
+.banner-about-us {
+  height: 40vh;
+  background: url("../images/about-us.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
+
+.about-us-banner-center {
+  height: 40vh;
+  background: url("../images/child-hand-paint.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
+
+.banner-your-visit {
+  height: 40vh;
+  background: url("../images/plan-your-visit.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
+.banner-events {
+  height: 40vh;
+  background: url("../images/events.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-.headline {
-  padding: 50px 0px;
-  text-align: center;
-  position: relative;
-  color: red;
+.banner-contact-us {
+  height: 40vh;
+  background: url("../images/contact-us.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.banner-rooms {
+  height: 40vh;
+  background: url("../images/rooms.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/********* Home Page **********/
+
+.maintitle {
+  padding: 70px 20px 20px;
+  color: #76F134; /* green*/
+  font-family: 'Salsa', cursive;
+  text-shadow: 3px 3px 3px #FF3932;
   animation-name: headingline;
-  animation-duration: 5s;
-  
+  animation-duration: 4s;
+  text-align: center;
 }
 
 /* Add animation to the heading*/
 @keyframes headingline {
-  0%   {color:red;}  
-  25%  {color:purple;} 
-  50%  {color:orange;}  
-  75%  {color:green;}   
-  100% {color:blue;}
+  0%   {color:#FF3932;}  
+  25%  {color:#AB6BFF;} 
+  50%  {color:#FF9F30;}  
+  75%  {color:#87EB31;}   
+  100% {color:#00bce4;}
 }
 
-.whatwedo {
+.uppercase {
+    text-transform: uppercase;
+}
+
+.main-text-wrapper{
+    width:100%;
+    margin:15px auto; 
+    text-align: center;
+}
+
+.main-image-wrapper{
+    width:100%;
+    margin:15px auto; 
+    text-align: center;
+}
+
+.subtitle{
+    font-family: 'Salsa', cursive;
+    font-weight: 200;
+    margin-top: 20px;
+    text-align: center;
+    padding: 30px 0px;
+    color: #76F134;
+    text-shadow: 2px 2px 2px #FF3932;
+}
+
+.subtitle-about{
+    font-family: 'Salsa', cursive;
+    font-weight: 200;
+    margin-top: 20px;
+    text-align: center;
+    padding: 30px 0px;
+    color: #AB6BFF; /*#76F134;*/
+    text-shadow: 2px 2px 2px #FF3932;
+}
+
+.subtitle-contact{
+    font-family: 'Salsa', cursive;
+    font-weight: 200;
+    margin-top: 20px;
+    text-align: center;
+    padding: 30px 0px;
+    color:#00bce4;
+    text-shadow: 2px 2px 2px #FF3932;
+}
+
+/******* Rooom Gallery *******/
+
+.gallery{
+   margin:auto;
+   text-align: center;
+}
+
+.gallery ul {
+    display: inline-block;
+    padding-bottom: 25px;
+    padding-left:0px;
+}
+
+.gallery ul > li {
     position: relative;
-    padding: 30px 50px 50px 50px;
-    margin:0;
+    display: inline-block;
+    min-height: 250px;
+    width: auto; 
+    margin: 8px 1px 8px 0px;
+    border: 1px solid #76F134; 
+    clear:both;
+    border-radius: 25px;
+    padding:0px;
+}
+
+.gallery_caption {
+    position: relative; 
+    background-color:#76F134; /*green*/
+    color:rgba(0,0,0,.8);
+    min-height: 40px;
+    width:auto;
+    padding-top: 10px;
+    text-align: center;
+    opacity: .95;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+}
+
+.gallery-btn{
+    display:block;
+    text-align: center;
+    background:#76F134;
+    background-size:cover;
+    color:rgba(0,0,0,.8);
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Salsa', cursive;
+    margin-bottom:40px;
+    margin-top:0px;
+}
+
+.gallery-btn:hover {
+    background:#AB6BFF;
+    color:white;
+    text-decoration: none;
+}
+
+.planyourvisit-btn{
+    display:block;
+    text-align: center;
+    background:#AB6BFF;
+    background-size:cover;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Salsa', cursive;
+    margin-bottom:0px;
+    margin-top:30px;
+}
+
+.planyourvisit-btn:hover {
+    background:#FF9F30;
+    color:white;
+    text-decoration: none;
+}
+
+.room1  img, .room2 img, .room3 img, .room4 img {
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+}
+
+/* Transform effect code taken from Avada's theme */
+.room1:hover, .room2:hover, .room3:hover, .room4:hover {
+    -webkit-transform: perspective(1000px) scale(1.03);
+    transform: perspective(1000px) scale(1.03);
+    box-shadow: 0 0 10px #87EB31;; /*#333 */ 
+    -webkit-box-shadow: 0 0 10px #87EB31;;  
+    -moz-box-shadow: 0 0 10px #87EB31;; 
+    -o-box-shadow: 0 0 10px #87EB31;;  
+    -ms-box-shadow: 0 0 10px #87EB31;;
 }
 
 
+/****** Business Highlights ****/
+
+.text-container{
+    float:left;
+    width:100%;
+    text-align: center;
+    margin:10px auto; 
+}
+
+#science, #sports, #arts, #games  {
+    border: 2px solid #76F134;
+    border-radius: 50px;
+    color:white;
+    padding:30px;
+}
+
+#science {
+  background-color:#FF3932; 
+}
+#sports {
+    background-color:#AB6BFF;
+}
+#arts {
+    background-color:#FF9F30;
+}
+#games {
+    background-color:#00bce4;
+}
+
+/**************Theme of the month *************/
+
+/* Built gradiente background code with: https://cssgradient.io/gradient-backgrounds/ using the colors from my website*/
+.theme-wrapper {
+    background-color: #ff9f30;
+    background-image: linear-gradient(209deg, #ff9f30 0%, #ff3232 24%, #ab6bff 49%, #76f134 75%, #00bce4 100%);
+    background-size: cover;
+    padding: 20px;
+    color:#fafafa;
+    font-size: larger;
+    margin:20px auto; 
+}
+
+.theme-subtitle-wrapper {
+    font-family: 'Salsa', cursive;
+    font-weight: 200;
+    text-align: center;
+    color: #fafafa;
+    padding-top: 10px;
+}
+
+.theme-pic-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow:hidden;
+}
+
+.theme-text-wrapper {
+    padding:10px; 
+}
+
+/************ About Us Page *************/
+
+.about-title {
+    padding: 50px 0px 30px;
+    text-align: center;
+}
+
+.about-image {
+    padding: 20px;
+    text-align: center;
+    margin:auto;
+}
+
+.about-text{
+    padding:20px 60px 10px 60px;
+}
+
+
+ /**** Timeline section *****/
+ /* This code was taken from w3 school's website */
+ 
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1068px;
+  margin: 0 auto 20px;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #6D0ECC; /*purple*/
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container-2 {
+  padding: 10px 40px;
+  position: relative;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container-2::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #8812FF; /* purple*/
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid #87EB31;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #87EB31;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid #87EB31;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #87EB31 transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -12px; /*-16px*/
+}
+
+/* Fix the circle for containers on the right side */
+.left::after {
+  right: -13px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: #87EB31; /*==> green */ 
+  position: relative;
+  border-radius: 6px;
+}
+
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .container-2 {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .container-2::before {
+    left: 60px;
+    border: medium solid #87EB31;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #87EB31 transparent transparent;
+  }
+
+/* Make sure all gallery-btn are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+
+
+
+/**** What Parents Are Saying section *****/
+
+.quote {
+    text-align: center;
+    width:90%; 
+    height:auto;
+    color: inherit;
+    display:inline-block;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin: 0 1% 0 1%;
+ }
+
+.border {
+ position: absolute;
+ border: .5px solid grey !important;
+ width: 40%; 
+ left:25%;
+ }
+
+.customer-review {
+    display: block;
+    padding: 25px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-style: italic;
+ }
+
+.review-author {
+    margin-top: 25px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+ }
+
+.dotted-separator{
+    border-color: #fb6667;
+    border-width: 5px;
+    margin:30px auto 30px;
+    width: 100%;
+    max-width: 50%;
+    border-top-style: dotted;
+ }
+
+
+/************* Contact us page *************/
+
+.contact-form-wrapper {
+    width: 60%;
+    margin: auto;
+ }
+
+.first-name{
+    width:100%;
+    display:inline-block;
+    padding-right: 1%;
+ }
+
+.last-name{
+   width:100%;
+   display:inline-block;
+}
+
+.text-area{
+   padding: 30px;
+   margin: 6px 0 4px;
+ }
+
+.form-control{
+   background: #fafafa;
+ }
+
+.btn-submit{
+   background: #00bce4; 
+   color: white;
+   text-transform: uppercase;
+   font-weight:700;
+ }
+
+.btn-submit:hover {
+   background: #FF3932;
+ }
+
+.location-wrapper {
+   margin-top: 30px;
+   margin-bottom: 30px;
+   text-align: center;
+ }
+
+.phone-wrapper, .email-wrapper  {
+   float:left;
+   width:49%;
+   text-align: center;
+   margin:auto;
+ }
+
+.email-wrapper {
+   padding-left: 1%;
+ }
+
+/***************  Footer *****************/
+
+/* Style footer section */
+footer {
+   background-color: #85CA30; 
+   color: #fafafa;
+   min-height: 100px;
+   margin-top: 60px;
+ }
+
+#footer-details {
+   padding: 25px;
+ }
+
+#menu-widget-2 ul {
+   text-align:center;
+   padding:20px;            
+   display:block; 
+ }
+
+#menu-widget-2 li {
+   display: inline-block;
+   font-size: 20px;
+   padding: 10px;
+ }
+
+#menu-widget-2 li a {
+   color:inherit;
+}
+
+#menu-widget-2 li a:hover{
+    opacity: .8;
+    text-decoration: none;
+ }
+
+#social-media{
+    text-align:center;       
+    padding:20px;           
+    display: block; 
+}
+
+#social-media a {
+    padding: 10px;
+    display: inline-block; 
+ }
+
+#social-media a:hover{
+    opacity: .8;
+ }
+
+
+/******** Media Queries *******/
+
+@media only screen and (min-width: 768px)  {
+  h1{
+    font-size: 50px; 
+  }
+
+  h2{
+    font-size: 40px; 
+  }
+  
+.about-text{
+  padding: 20px 80px 20px 80px;
+  display:inline-block;
+} 
+    
+.border {
+  position:absolute;
+  display:block;
+  border: .4px solid grey !important;
+  height: 70%;
+  width: 0;
+  left:95%;
+  right:0;
+  top:15%;
+  padding:0;
+ }   
+  
+.subtitle-theme {
+   text-align: center;
+   color: #76F134;
+   padding:5px 5px 0px 0px;
+ }
+
+.banner-home, .banner-center, .banner-contact-us, .banner-about-us, 
+ .banner-your-visit, .banner-events, .banner-rooms{
+    height: 75vh;
+ } 
+ 
+ .about-us-banner-center {
+     height:60vh;
+ }
+ 
+.first-name, .last-name{
+    width:49.5%;
+ } 
+}
+
+/****** iPad only ******/
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    
+.gallery ul {
+     padding-left:0px;
+ }
+     
+.gallery ul > li {
+     margin: 15px;
+ }
+     
+.theme-wrapper {
+      padding:20px;
+  } 
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 900px){
+    
+.text-container{
+    width:40%;
+    margin:10px 10px 10px 43px;
+ }
+
+.theme-wrapper {
+      padding:20px;
+  } 
+}
+
+
+/***** Desktop only ******/
+
+@media only screen and (min-width: 1024px){
+    
+.main-text-wrapper{
+   width:45%;
+   position: relative;
+   top:-70px;
+   display: inline-block;
+   margin: 15px 15px 15px 30px;
+   padding-left: 20px;
+}
+
+.main-image-wrapper {
+   width:45%;
+   display: inline-block;
+   position: relative;
+   overflow: hidden;
+   margin:15px 15px 15px 30px;
+}
+    
+.text-container{
+    width:40%;
+    margin: 10px 40px 10px 50px;
+ }
+
+.gallery ul {
+     padding-left:0px;
+ }
+     
+.gallery ul > li {
+     margin: 8px 8px 0px 8px;
+ }
+}
