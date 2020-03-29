@@ -32,7 +32,7 @@ margin-right: 20px;
 
 /* Menu Hower Style. Overridding Bootstrap's*/
 .navbar-nav .nav-item.active .nav-link {
- background-color:#87EB31; /*green*/
+ background-color: #4FB156; /*green*/
  border-radius: 16px;
  color: white;
 } 
@@ -79,7 +79,7 @@ margin-right: 20px;
 }
 
 .navbar-nav .nav-item:hover .nav-link  {
- background-color:#87EB31; /*green*/
+ background-color:#4FB156; /*green*/
  border-radius: 16px;
  color: white;
 }
@@ -114,6 +114,11 @@ margin-right: 20px;
  color: white;
 }
 
+.logo {
+    width:90px;
+    height:90px;
+    margin-left:20px;
+}
 
 /**** Banner images****/
 
@@ -156,6 +161,8 @@ margin-right: 20px;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-bottom: 50px; 
+  margin-top: 30px;
 } 
 
 .banner-your-visit {
@@ -237,7 +244,7 @@ margin-right: 20px;
     margin-top: 20px;
     text-align: center;
     padding: 30px 0px;
-    color: #76F134;
+    color: #4FB156; /* #76F134; signature green */
     text-shadow: 2px 2px 2px #FF3932;
 }
 
@@ -247,7 +254,7 @@ margin-right: 20px;
     margin-top: 20px;
     text-align: center;
     padding: 30px 0px;
-    color: #AB6BFF; /*#76F134;*/
+    color: #AB6BFF; /*purple */
     text-shadow: 2px 2px 2px #FF3932;
 }
 
@@ -260,6 +267,79 @@ margin-right: 20px;
     color:#00bce4;
     text-shadow: 2px 2px 2px #FF3932;
 }
+
+.subtitle-plan-your-visit{
+    font-family: 'Salsa', cursive;
+    font-weight: 200;
+    margin-top: 20px;
+    text-align: center;
+    padding: 30px 20px 20px 30px;
+    color:#FF9F30;
+    text-shadow: 2px 2px 2px #FF3932;
+}
+
+
+/****** Business Highlights ****/
+
+.text-container{
+    float:left;
+    width:100%;
+    text-align: center;
+    margin:10px auto; 
+}
+
+#science, #sports, #arts, #games  {
+    border-radius: 50px;
+    color:white;
+    padding:30px;
+}
+
+/* Transform effect code taken from Avada's theme */
+.room1:hover, .room2:hover, .room3:hover, .room4:hover {
+    -webkit-transform: perspective(1000px) scale(1.03);
+    transform: perspective(1000px) scale(1.03);
+    -webkit-box-shadow: 0 0 10px #87EB31;  
+    -moz-box-shadow: 0 0 10px #87EB31;
+     box-shadow: 0 0 10px #87EB31;
+    -o-box-shadow: 0 0 10px #87EB31;
+    -ms-box-shadow: 0 0 10px #87EB31;
+}
+
+
+#science {
+  background-color:#FF3932; 
+  -webkit-box-shadow: 0 0 10px #FF3932;  
+  -moz-box-shadow: 0 0 10px #FF3932;
+   box-shadow: 0 0 10px #FF3932;
+  -o-box-shadow: 0 0 10px #FF3932; 
+  -ms-box-shadow: 0 0 10px #FF3932;
+}
+#sports {
+  background-color:#AB6BFF;
+  -webkit-box-shadow: 0 0 10px #AB6BFF; 
+  -moz-box-shadow: 0 0 10px #AB6BFF;
+   box-shadow: 0 0 10px #AB6BFF;
+  -o-box-shadow: 0 0 10px #AB6BFF;
+  -ms-box-shadow: 0 0 10px #AB6BFF;
+}
+#arts {
+  background-color:#FF9F30;
+  -webkit-box-shadow: 0 0 10px #FF9F30;  
+  -moz-box-shadow: 0 0 10px #FF9F30;
+   box-shadow: 0 0 10px #FF9F30;
+  -o-box-shadow: 0 0 10px #FF9F30; 
+  -ms-box-shadow: 0 0 10px #FF9F30;
+}
+
+#games {
+  background-color:#00BCE4;
+  -webkit-box-shadow: 0 0 10px #00BCE4; 
+  -moz-box-shadow: 0 0 10px #00BCE4;
+   box-shadow: 0 0 10px #00BCE4;
+  -o-box-shadow: 0 0 10px #00BCE4;
+  -ms-box-shadow: 0 0 10px #00BCE4;
+}
+
 
 /******* Rooom Gallery *******/
 
@@ -299,11 +379,31 @@ margin-right: 20px;
     border-bottom-right-radius:25px;
 }
 
+.room1  img, .room2 img, .room3 img, .room4 img {
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+}
+
+
+/* Transform effect code taken from Avada's theme */
+.room1:hover, .room2:hover, .room3:hover, .room4:hover {
+    -webkit-transform: perspective(1000px) scale(1.03);
+    transform: perspective(1000px) scale(1.03);
+    -webkit-box-shadow: 0 0 10px #87EB31;;  
+     box-shadow: 0 0 10px #87EB31;; 
+    -moz-box-shadow: 0 0 10px #87EB31;;
+    -o-box-shadow: 0 0 10px #87EB31;;  
+    -ms-box-shadow: 0 0 10px #87EB31;;
+}
+
+/****** Buttons *******/
+
 .gallery-btn{
-    display:block;
+    display:inline-block;
+    width: 300px;
     text-align: center;
     background:#76F134;
-    background-size:cover;
+    border: none;
     color:rgba(0,0,0,.8);
     font-weight: bold;
     font-size: 20px;
@@ -313,22 +413,23 @@ margin-right: 20px;
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'Salsa', cursive;
-    margin-bottom:40px;
-    margin-top:0px;
+    margin-bottom:30px;
+    border-radius: 10px;
 }
 
+
 .gallery-btn:hover {
-    background:#AB6BFF;
+    background:#FF3932;
     color:white;
     text-decoration: none;
 }
 
 .planyourvisit-btn{
-    display:block;
+    display:inline-block;
+    width: 300px;
     text-align: center;
     background:#AB6BFF;
-    background-size:cover;
-    color:white;
+    color:black;
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 3px;
@@ -337,8 +438,9 @@ margin-right: 20px;
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'Salsa', cursive;
-    margin-bottom:0px;
-    margin-top:30px;
+    margin-top: 30px;
+    margin-bottom:25px;
+    border-radius: 10px;
 }
 
 .planyourvisit-btn:hover {
@@ -347,50 +449,52 @@ margin-right: 20px;
     text-decoration: none;
 }
 
-.room1  img, .room2 img, .room3 img, .room4 img {
-    border-top-left-radius:25px;
-    border-top-right-radius:25px;
-}
-
-/* Transform effect code taken from Avada's theme */
-.room1:hover, .room2:hover, .room3:hover, .room4:hover {
-    -webkit-transform: perspective(1000px) scale(1.03);
-    transform: perspective(1000px) scale(1.03);
-    box-shadow: 0 0 10px #87EB31;; /*#333 */ 
-    -webkit-box-shadow: 0 0 10px #87EB31;;  
-    -moz-box-shadow: 0 0 10px #87EB31;; 
-    -o-box-shadow: 0 0 10px #87EB31;;  
-    -ms-box-shadow: 0 0 10px #87EB31;;
-}
-
-
-/****** Business Highlights ****/
-
-.text-container{
-    float:left;
-    width:100%;
+.getdirections-btn{
+    display:inline-block;
+    width: 200px;
     text-align: center;
-    margin:10px auto; 
+    background: #FF9F30;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Salsa', cursive;
+    margin:40px auto 40px 15px;
+    border-radius: 5px;
 }
 
-#science, #sports, #arts, #games  {
-    border: 2px solid #76F134;
-    border-radius: 50px;
+.getdirections-btn:hover {
+    background:#FF9F30;
     color:white;
-    padding:30px;
+    text-decoration: none;
 }
 
-#science {
-  background-color:#FF3932; 
+.gettickets-btn{
+    display:inline-block;
+    width: 200px;
+    text-align: center;
+    background: #FF9F30;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Salsa', cursive;
+    margin:40px auto 10px 15px;
+    border-radius: 5px;
 }
-#sports {
-    background-color:#AB6BFF;
-}
-#arts {
-    background-color:#FF9F30;
-}
-#games {
-    background-color:#00bce4;
+
+ .gettickets-btn:hover {
+    background:#FFB755;   /*#FF9F30;*/
+    color:black;
+    text-decoration: none;
 }
 
 /**************Theme of the month *************/
@@ -398,12 +502,15 @@ margin-right: 20px;
 /* Built gradiente background code with: https://cssgradient.io/gradient-backgrounds/ using the colors from my website*/
 .theme-wrapper {
     background-color: #ff9f30;
-    background-image: linear-gradient(209deg, #ff9f30 0%, #ff3232 24%, #ab6bff 49%, #76f134 75%, #00bce4 100%);
+   /* background-image: linear-gradient(209deg, #ff9f30 0%, #ff3232 24%, #ab6bff 49%, #76f134 75%, #00bce4 100%);*/
+    background: linear-gradient(209deg, #ff9f30 0%, #ff3232 24%, #ab6bff 49%, #76f134 75%, #00bce4 100%) no-repeat center center;
     background-size: cover;
+    width:100%;
     padding: 20px;
     color:#fafafa;
     font-size: larger;
-    margin:20px auto; 
+    margin:20px auto 0px;
+
 }
 
 .theme-subtitle-wrapper {
@@ -411,7 +518,8 @@ margin-right: 20px;
     font-weight: 200;
     text-align: center;
     color: #fafafa;
-    padding-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
 
 .theme-pic-wrapper {
@@ -451,7 +559,7 @@ margin-right: 20px;
 .timeline {
   position: relative;
   max-width: 1068px;
-  margin: 0 auto 20px;
+  margin: 0 auto 55px;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -626,6 +734,21 @@ margin-right: 20px;
     border-top-style: dotted;
  }
 
+/************* Plan Your Visit *************/
+
+.compact-paragraph {
+    display:inline-block;
+    width: auto; 
+    padding:20px 20px 20px 20px;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 10px auto 0px;
+  }
+  
+  .compact-paragraph p {
+    margin: 0; /* no margin to reduce space between paragraphs*/
+    line-height: normal; 
+  }
 
 /************* Contact us page *************/
 
@@ -686,10 +809,10 @@ margin-right: 20px;
 
 /* Style footer section */
 footer {
-   background-color: #85CA30; 
+   background-color: #4FB156; /*#5E8041; *//*#85CA30;*/
    color: #fafafa;
    min-height: 100px;
-   margin-top: 60px;
+  /* margin-top: 60px;*/
  }
 
 #footer-details {
@@ -793,7 +916,7 @@ footer {
  }
      
 .theme-wrapper {
-      padding:20px;
+      padding:20px 20px 20px 30px;  /*eb*/
   } 
 }
 
@@ -803,10 +926,6 @@ footer {
     width:40%;
     margin:10px 10px 10px 43px;
  }
-
-.theme-wrapper {
-      padding:20px;
-  } 
 }
 
 
@@ -843,4 +962,8 @@ footer {
 .gallery ul > li {
      margin: 8px 8px 0px 8px;
  }
+ 
+ .theme-wrapper {
+      padding:20px 20px 40px 20px;
+  } 
 }
