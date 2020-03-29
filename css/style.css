@@ -502,7 +502,6 @@ margin-right: 20px;
 /* Built gradiente background code with: https://cssgradient.io/gradient-backgrounds/ using the colors from my website*/
 .theme-wrapper {
     background-color: #ff9f30;
-   /* background-image: linear-gradient(209deg, #ff9f30 0%, #ff3232 24%, #ab6bff 49%, #76f134 75%, #00bce4 100%);*/
     background: linear-gradient(209deg, #ff9f30 0%, #ff3232 24%, #ab6bff 49%, #76f134 75%, #00bce4 100%) no-repeat center center;
     background-size: cover;
     width:100%;
@@ -510,7 +509,6 @@ margin-right: 20px;
     color:#fafafa;
     font-size: larger;
     margin:20px auto 0px;
-
 }
 
 .theme-subtitle-wrapper {
