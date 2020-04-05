@@ -3,7 +3,7 @@
 This website is created for a business idea about a children amusement/learning place, similar to a children's museum. The website is geared toward the children and their parents, where in information about the approach the business offers in children's fun and unique experience of learning. The business is actually my sister's idea. She wants to create a place where children can explore as many activities as possible in order for them to discover at a nearly stage in theri lives what they like and what they don't, what they feel curious about and what they feel more inclined to enjoy. the website will also engage the parents into buting the tickets, attent the events andbecome a memeber.
 
 ## Demo
-A live demo can be found [HERE](http://google.com)
+A live demo can be found [HERE]()
 
 ## UX
 ### User Story 
@@ -25,13 +25,13 @@ Pages are not very long, as the user might not engage in lots of scrolling to fi
 
 ### Skeleton
 
-[Landing Page wireframe]
+[Landing Page wireframe](https://github.com/EliBec/my-first-frontend-milestone-project/tree/remove-rooms-and-events-webpages/wireframe/LandingPage_Wireframe.pdf)
 
-[About Us wireframe]
+[About Us wireframe](https://github.com/EliBec/my-first-frontend-milestone-project/tree/remove-rooms-and-events-webpages/wireframe/AboutUs_Wireframe.pdf)
 
-[Plan Your Visit wireframe]
+[Plan Your Visit wireframe](https://github.com/EliBec/my-first-frontend-milestone-project/tree/remove-rooms-and-events-webpages/wireframe/PlanYourVisit_Wireframe.pdf)
 
-[Contact Us wireframe]
+[Contact Us wireframe](https://github.com/EliBec/my-first-frontend-milestone-project/tree/remove-rooms-and-events-webpages/wireframe/ContactUs_Wireframe.pdf)
 
 ### Surface
 I wanted the website to be colorful enough to convey a playful fun message, while using a neutral color - in this case white - for the background on order to achieve a clean style. I did not want to have a predominant theme color through the entire website. So, I came up with the idea of using a predominant color on each page; said color would match the color of the page link on the header menu. This will give uniquess to the each page while also making it fun to navigate from page to page. Of course, there is a consistency in font, style and structure; the only change is the theme color. For exmaple, the About Us page menu link is purple; and the About Us webpage's predominant color is purple. 
