@@ -106,7 +106,7 @@ margin-right: 20px;
   margin-top: 30px;
 }
 
-.banner-center {
+.home-banner-center {
   height: 40vh;
   background: url("../images/happy-kids.jpg") no-repeat center center;
   -webkit-background-size: cover;
@@ -184,7 +184,8 @@ margin-right: 20px;
 .main-text-wrapper{
     width:100%;
     margin:15px auto; 
-    text-align: center;
+    text-align: justify;
+    padding-top:20px;
 }
 
 .main-image-wrapper{
@@ -827,8 +828,12 @@ footer {
    padding:5px 5px 0px 0px;
  }
 
-.banner-home, .banner-center, .banner-contact-us, .banner-about-us, .banner-your-visit{
+.banner-home, .banner-contact-us, .banner-about-us, .banner-your-visit{
     height: 75vh;
+ } 
+ 
+ .home-banner-center{
+    height: 65vh;
  } 
  
  .about-us-banner-center {
@@ -871,19 +876,16 @@ footer {
     
 .main-text-wrapper{
    width:45%;
-   position: relative;
    top:-70px;
    display: inline-block;
-   margin: 15px 15px 15px 30px;
-   padding-left: 20px;
+   margin: 5px 15px 15px 30px; 
 }
 
 .main-image-wrapper {
    width:45%;
    display: inline-block;
-   position: relative;
    overflow: hidden;
-   margin:15px 15px 15px 30px;
+   margin:15px 15px 15px 15px;
 }
     
 .text-container{
